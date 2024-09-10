@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logistics Company</title>
+    <link rel="stylesheet" href="./body.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#tracking">Track Shipment</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1 class="head">Welcome to Our Logistics Service</h1>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-list">
+            <div class="service-item">
+                <h3>International Shipping</h3>
+                <p>We offer reliable international shipping services with real-time tracking.</p>
+            </div>
+            <div class="service-item">
+                <h3>Domestic Shipping</h3>
+                <p>Fast and efficient domestic shipping across the country.</p>
+            </div>
+            <div class="service-item">
+                <h3>Warehouse Management</h3>
+                <p>Comprehensive warehouse solutions to meet your storage needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tracking Section -->
+    <section id="tracking">
+        <h2>Track Your Shipment</h2>
+        <form id="tracking-form">
+            <label for="tracking-number">Enter Tracking Number:</label>
+            <input type="text" id="tracking-number" name="tracking-number" placeholder="e.g., 123456789">
+            <button type="button" onclick="trackShipment()">Track</button>
+        </form>
+        <div id="tracking-result"></div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@logistics.com</p>
+        <p>Phone: +123-456-7890</p>
+    </section>
+
+    <script src="scrips.js"></script>
+</body>
+</html>
+
+
+
